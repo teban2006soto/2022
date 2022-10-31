@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2? family= Indie+Flower & display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url();
+   background-size: 400% 300%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/581/045/non_2x/cartoon-scene-nature-with-sky-background-flat-nature-landscape-with-meadow-illustration-vector.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 120%;
+  }
+
+  @keyframes Reciplanet {
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+  }
+
+  .menu-horizontal{
+    border-radius: 20px;
+    height: 60px;
+    width: 80%;
+    list-style: none;
+ 
+}
+.menu-horizontal > li a{
+    padding: 15px 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    float: left;
+}
+
+#ayuda{
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(150deg, rgb(80, 196, 80), white, rgb(241, 241, 64) );
+   background-size: 400% 300%;
+    background-repeat: no-repeat;
+   animation: Reciplanet 5s ease infinite;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#ayuda:hover{
+  background-color: rgb(27, 177, 27);
+  color: black;
+}
+
+#selector{
+  border: 2px solid black;
+  background: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+   border-radius: 20px;
+}
+
+#selector:hover{
+  border: 2px solid black;
+  background: rgba(19, 18, 18, 0.74);
+  color: white;
+    border-radius: 20px;
+
+}
+
+  #encabezado {
+    font-family: 'Poppins', sans-serif;
+    width: 80vw;
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(190, 185, 185);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .opcion {
+    width: 80vw;
+    background-color: rgb(190, 199, 191);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .opcion:hover{
+    background: rgb(245, 142, 82);
+
+       font-weight: 30px;
+       transition: all 0.3s ease;
+  }
+
+  
